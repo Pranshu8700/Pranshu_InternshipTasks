@@ -1,13 +1,13 @@
   
-print("Enter first number:")
-num1=int(input())
+print("Enter the number:")
 
-print("Enter second number:")
-num2=int(input())
+n=int(input())
 
-if num1>num2:
-    print("First number is greater than the second.")
-elif num1<num2:
-    print("Second number is greater than the first.")
-else:
-    print("Both are equal.")
+fact = 1
+i = 1
+
+while i<=n:
+    fact = fact*i
+    i=i+1
+
+print("\nFactorial:", fact)
